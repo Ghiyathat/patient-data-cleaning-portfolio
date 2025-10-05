@@ -39,11 +39,15 @@ Step 2 -Power Query Refinement
   - Verify column consistency before export
   - Save first cleaned dataset with the timestamp in sheet 3 as PowerQuery_DC
   - Save final dataset in Sheet 4 as PowerQuery_FDC
-The final excel worksheet has 4 sheets following the following order
+The final excel workbook has 4 sheets following the order below;
 - Sheet1: Messy patient data appearing as messy_patient_data
 - Sheet2: Messy patient data cleaned with python appearing as Python_DC
 - Sheet3: Clean version of messy patient data with timestamp appearing as PowerQuery_DC
 - Sheet4: Clean version of messy patient data without timestamp appearing as PowerQuery_FDC
+- The Excel workbook was saved as [Cleaned_Patient_Data.xlsx](https://github.com/user-attachments/files/22708800/Cleaned_Patient_Data.xlsx)
+
+### Data Sources
+The primary dataset used is the [Messy Patient Data.xlsx](https://github.com/user-attachments/files/22708789/Messy.Patient.Data.xlsx) file, containing the messy patient data used.
 
 ### Tools
 - Anaconda (Pandas, Numpy, dateutil)
